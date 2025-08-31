@@ -26,7 +26,7 @@ def processCommand(c):
         link = musicLibrary.music[song]  
         webbrowser.open(link)
     else:
-        pass
+        speak("Sorry, I didn't understand that.")
 
 if __name__ == "__main__":
     speak("Initializing jarvis....")
